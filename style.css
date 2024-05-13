@@ -117,9 +117,10 @@ header {
 }
 
 .card {
+  --br: 0.25rem;
   padding: 2rem;
-  border-top: 0.25rem solid;
-  border-radius: 0.25rem;
+  border-top: var(--br) solid;
+  border-radius: var(--br);
   box-shadow: 0 0.75rem 0.75rem 0.25rem hsl(212, 100%, 86%, 0.35);
 }
 
